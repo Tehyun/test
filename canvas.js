@@ -1,8 +1,3 @@
-# test
-function eventWindowLoaded () {
-  canvasApp();
-}
-
 function canvasApp() {
 
   if (!canvasSupport()) {
@@ -37,5 +32,5 @@ function canvasApp() {
     stage.update();
   });
 
-
 }
+
